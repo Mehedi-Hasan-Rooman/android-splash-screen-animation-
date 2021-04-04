@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/splash_image"
+       android:layout_marginTop="150sp"
+        android:src="@drawable/wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/splash_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Welcome"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/splash_text2"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+
+        android:text="Guys"
+        android:textSize="55sp" />
+
+
+</LinearLayout>
